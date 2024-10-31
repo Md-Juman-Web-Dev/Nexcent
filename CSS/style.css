@@ -30,7 +30,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', serif;
+  font-family: 'Inter', sans-serif;
 }
 h1,
 h2,
@@ -53,6 +53,7 @@ ol {
   list-style: none;
 }
 .button {
+  font-family: var(--font-family);
   border-radius: 6px;
   padding: 10px 20px;
   background: var(--brand-primary);
@@ -61,6 +62,7 @@ ol {
   line-height: 143%;
   text-align: center;
   color: var(--neutral-white);
+  display: inline-block;
 }
 /* commen css */
 
@@ -86,7 +88,10 @@ nav #menu li a {
   color: #18191f;
 }
 /* *==================HEADER IS END================ */
-
+#baner {
+  width: 100%;
+  background-color: var(--neutral-silver);
+}
 .left-side h1 {
   font-family: var(--font-family);
   font-weight: 600;
@@ -113,6 +118,9 @@ nav #menu li a {
   margin-top: 96px;
 }
 /* *BANER IND  */
+#our-clients {
+  margin: 40px 0;
+}
 .clients img {
   width: 48px;
 }
@@ -133,4 +141,184 @@ nav #menu li a {
   line-height: 150%;
   text-align: center;
   color: var(--neutral-grey);
+}
+/* emd  */
+#membership {
+  margin: 40px 0;
+}
+.text-box h2 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 122%;
+  text-align: center;
+  color: var(--neutral-d-grey);
+  font-family: var(--font-family);
+}
+.text-box p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: var(--neutral-grey);
+  margin: 8px 0 16px;
+}
+
+.memder img {
+  width: 65px;
+  margin-bottom: 16px;
+}
+.memder h3 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 129%;
+  text-align: center;
+  color: var(--neutral-d-grey);
+}
+.memder p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  text-align: center;
+  color: var(--neutral-grey);
+}
+
+#Helping {
+  width: 100%;
+  background-color: var(--neutral-silver);
+}
+
+.h-left h3 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 122%;
+  color: var(--neutral-d-grey);
+}
+.h-left h3 span {
+  color: var(--brand-primary);
+  display: block;
+}
+.h-left p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #18191f;
+  margin-top: 8px;
+}
+.h-right {
+  margin-top: 64px;
+}
+.members {
+  margin-bottom: 40px;
+}
+.h-right .members img {
+  width: 48px;
+  margin-right: 16px;
+}
+.h-right .members .text h4 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 129%;
+  color: var(--neutral-d-grey);
+}
+.h-right .members .text p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--neutral-grey);
+}
+
+/* end */
+#unseen {
+  margin: 40px 0;
+}
+.textArea h4 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 122%;
+  color: var(--neutral-d-grey);
+}
+.textArea p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  color: var(--neutral-grey);
+  margin: 16px 0 32px;
+}
+#TimSmith {
+  width: 100%;
+  background-color: var(--neutral-silver);
+}
+#TimSmith .image a {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  color: var(--brand-primary);
+}
+/* end  */
+#Caring {
+  margin: 40px 0;
+}
+#Caring h4 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 122%;
+  color: var(--neutral-d-grey);
+  margin-top: 8;
+}
+#Caring p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--neutral-grey);
+  margin: 8px 0 16px;
+}
+
+.main-cart {
+  position: relative;
+  margin-bottom: 100px;
+}
+.cart {
+  border-radius: 8px;
+  width: 368px;
+}
+.cart img {
+  width: 368px;
+}
+.m-card {
+  border-radius: 8px;
+  padding: 16px;
+  width: 300px;
+  height: 176px;
+  box-shadow: 0 8px 16px 0 rgba(171, 190, 209, 0.4);
+  background: var(--neutral-silver);
+  position: absolute;
+  top: 190px;
+  left: 44px;
+}
+.m-card p {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  text-align: center;
+  color: var(--neutral-grey);
+}
+.m-card a {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  color: var(--brand-primary);
+}
+#Pellent h3 {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 119%;
+  text-align: center;
+  color: var(--neutral-black);
+}
+
+footer {
+  width: 100%;
+  background-color: var(--neutral-black);
 }
